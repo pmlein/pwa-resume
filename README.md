@@ -1,21 +1,8 @@
-[![Backers on Open Collective](https://opencollective.com/react-pwa/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-pwa/sponsors/badge.svg)](#sponsors) [![Dependencies Status](https://david-dm.org/Atyantik/react-pwa.svg)](https://david-dm.org/Atyantik/react-pwa)
-[![devDependencies Status](https://david-dm.org/Atyantik/react-pwa/dev-status.svg)](https://david-dm.org/Atyantik/react-pwa?type=dev)
-[![Build Status](https://travis-ci.org/Atyantik/react-pwa.svg?branch=master)](https://travis-ci.org/Atyantik/react-pwa)
-[![Known Vulnerabilities](https://snyk.io/test/github/atyantik/react-pwa/badge.svg)](https://snyk.io/test/github/atyantik/react-pwa)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Atyantik/react-pwa.svg)](https://greenkeeper.io/)  
 
-[![Join the chat at https://gitter.im/react-pwa](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/react-pwa/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-
-
-# React PWA
-A highly scalable, Progressive Web Application foundation,boilerplate, with the best Developer Experience.
-
-[https://www.reactpwa.com is built with this awesome boilerplate. Why don't you check it out.](https://www.reactpwa.com/)
+# React PWA resume
+A highly scalable, Progressive Web Application, starter cloned from https://github.com/Atyantik/react-pwa.git
 
 ###### Add to home screen and make your application behave like a Native APP
-If you are not able to view the gif below, just click "PWA States Gif" or the broken image:  
-
-[![PWA States Gif](https://media.giphy.com/media/xT9Igz9xhXychk8LyE/giphy.gif)](https://www.atyantik.com/wp-content/uploads/2017/10/PWA-States.png)
 
 #### Current Repo in Action
 To view how the current repository is running please visit [https://demo.reactpwa.com](https://demo.reactpwa.com)
