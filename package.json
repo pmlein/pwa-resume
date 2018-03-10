@@ -16,15 +16,24 @@
     "docker:prod:start": "docker run -it -p 3003:3003 react-pwa-prod"
   },
   "author": {
-    "name": "Atyantik Technologies Private Limited",
-    "email": "admin@atyantik.com",
-    "url": "https://www.atyantik.com/"
+    "name": "pmlein",
+    "email": "email@email.com",
+    "url": "https://www.example.com/"
   },
   "license": "MIT",
   "babel": {
     "extends": "pawjs/src/babel/.babelrc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-regular": "^5.0.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.8",
+    "@fortawesome/react-fontawesome": "0.0.17",
+    "font-awesome": "^4.7.0",
+    "react-icons": "^2.2.7",
+    "react-redux-form": "^1.16.6",
+    "react-structured-data": "0.0.7"
+  },
   "devDependencies": {
     "pawjs": "^0.4.6"
   }
