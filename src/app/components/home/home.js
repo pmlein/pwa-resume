@@ -16,12 +16,6 @@ export default class Home extends Component {
         learn new programming languages and techniques and try new ways of doing things.
         </p>
         
-        <p>Notes: This is a personal project with the goal to both learn React and create an online experience to showcase my photography work.
-
-Launching Soon
-
-Design, Development</p>
-        
       </div>
     );
   }

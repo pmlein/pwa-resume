@@ -1,24 +1,22 @@
 $primary-color: #e6e6ff;
 /* Sticky footer styles */
-html {
-	height: 100%;
-}
+/*
 body {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-}
-img {
-	max-width: 100%;
-	height: auto;
-}
+} 
+
+
+
 .content {
 	flex: 1;
 	padding: 20px;
 }
+*/
 
 
-/* Custom page CSS - MOBILE first */
+/* Custom page CSS - MOBILE first  
 body > .container {
   padding: 60px 15px 0;
 }
@@ -27,8 +25,12 @@ body > .container {
   margin: 15px 0;
   text-align: start;
 }
+*/
 
-.card-flex {
+.card-flex div {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -41,6 +43,7 @@ body > .container {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	width: 100%;
+  
 }
 .card-flex-item {
 	display: -webkit-flex;
@@ -50,25 +53,35 @@ body > .container {
 	display: flex; 
 	width: 100%;
 	padding-right: 0;
+	.card-flex-wrapper {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	
+		  background-color: $primary-color;
+	    border-radius: 5px;
+	    margin-bottom: 1em;
+	    margin-right: 0;
+	    padding: 1em;
+	    
+	    .card-flex-image  {
+			img {
+			opacity: 1;
+			max-width: 100%;
+		   border-radius: 0%;
+			height: auto;
+		  }
 }
-.card-flex-wrapper {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+	    
+	    
+	}
+}
 
-	  background-color: $primary-color;
-    border-radius: 5px;
-    margin-bottom: 1em;
-    margin-right: 0;
-    padding: 1em;
-}
-.card-flex-image img {
-	opacity: 1;
-}
+
 .card-flex-button {
 	background-color: white;
 	border: 1px solid #333; 
@@ -116,4 +129,6 @@ body > .container {
 		background-color: $primary-color; 
 	}
 }
+
+
 

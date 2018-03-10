@@ -59,9 +59,8 @@ input {
   &:focus {
     outline: 2px solid $color-primary;
   }
-}
-
-button {
+  
+  button {
   display:block;
   appearance: none;
   padding: 1rem 2rem;
@@ -77,9 +76,12 @@ button {
     opacity: 0.8;
   }
 }
+}
 
 
-*, *:before, *:after {
+
+
+/* *, *:before, *:after {
   box-sizing: border-box;
   position: relative;
 }
@@ -96,7 +98,7 @@ body, html {
   margin: 0;
 }
 
-
+*/
 
 .thank-you-note {
   padding: 60px;

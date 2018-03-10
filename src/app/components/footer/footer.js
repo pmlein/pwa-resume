@@ -3,10 +3,7 @@ import FaFacebook from "react-icons/lib/fa/facebook";
 import FaGithub from "react-icons/lib/fa/github";
 import FaLinkedin from "react-icons/lib/fa/linkedin";
 import FaCodepen from "react-icons/lib/fa/codepen";
-
-//import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-//import { faCheckSquare, faCoffee } from "@fortawesome/react-fontawesome";
-import Link from "pawjs/src/components/link";
+//import Link from "pawjs/src/components/link";
 
 /* 
   <ul className="nav d-inline-flex">

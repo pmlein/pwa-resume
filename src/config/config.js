@@ -29,19 +29,9 @@ export default {
     "description": "Boilerplate for react, redux with server-side rendering for SEO and support for progressive web application"
   },
   seo: {
-    title: "Common Title",
-    site_name: "My Site Name",
-    description: "This is some temporary description, used if no other description is found",
-    twitter: {
-      site: "@atyantik_tech",
-      creator: "@tirthbodawala"
-    },
-    facebook: {
-      admins: [
-        "1501220844",
-        "765904161",
-      ],
-    },
+    title: "Paula's Web Page",
+    site_name: "Portfolio",
+    description: "Portfolio Web Page",
     meta: [
       {
         name:"viewport",
