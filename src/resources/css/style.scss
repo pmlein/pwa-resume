@@ -4,6 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ $primary-color: #e6e6ff;
 @import "scss/custom";
 @import "scss/functions";
 @import "scss/variables";
@@ -33,3 +34,5 @@
 @import "scss/close";
 @import "scss/tooltip";
 @import "scss/utilities";
+@import "scss/card-flex.scss"
+

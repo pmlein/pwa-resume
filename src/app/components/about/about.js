@@ -1,3 +1,4 @@
+
 import React, {Component} from "react";
 import classNames from "classnames";
 import Link from "pawjs/src/components/link";
@@ -10,20 +11,23 @@ export default class About extends Component {
     return (
       <div className="row mt-3">
         <div className="col-sm-3 blog-sidebar">
-          <div className={classNames("sidebar-module", styles["sidebar-module-inset"])}>
-            <h4>About</h4>
+          <div className={
+          ("sidebar-module", styles["sidebar-module-inset"])}>
+            <h4>Professional Skills</h4>
             <p>
-              <em>Atyantik technologies Pvt. Ltd.</em> is a software company based in
-              gujarat servicing the needs of all businesses ranging
-              from midsize to large ones
+              I am more experienced as a back end developer but I have 
+              also made some front end development projects. I am facinated about 
+             the principle that less is more, 
+             while carefully including important functioning and details
+             .
             </p>
           </div>
           <div className={styles["sidebar-module"]}>
-            <h4>Left sidebar</h4>
+            <h4>Capabilities</h4>
             <ol className="list-unstyled">
-              <li><Link to="/about/about-us" animateSection="about-section" >About Us</Link></li>
-              <li><Link to="/about/we-execute-your-dreams" animateSection="about-section">What do we do?</Link></li>
-              <li><Link to="/about/do-not-hire-us" animateSection="about-section">Looking for a team?</Link></li>
+              <li><Link to="/about/about" animateSection="about-section" >Software development</Link></li>
+              <li><Link to="/about/web-development" animateSection="about-section">Web development</Link></li>
+              <li><Link to="/about/other" animateSection="about-section">Other techniques and tools</Link></li>
             </ol>
           </div>
         </div>

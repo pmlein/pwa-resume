@@ -1,16 +1,15 @@
 import React, {Component} from "react";
-import classNames from "classnames";
-import Link from "pawjs/src/components/link";
-import {renderSubRoutes} from "pawjs/src/utils/renderer";
+import ProjectImg from "src/resources/images/resume.jpg";
+
 //import styles from './portfolio.scss';
-require ('./portfolio.scss');
+//require ('./portfolio.scss');
 
 //BODY CONTENT
 export default class Portfolio extends Component {
   render() {
 		return (
 		  <div className="mt-5">
-		    <h3>Portfolio</h3>
+		    <h3>Projects</h3>
 		    <CardContainer numCards={3} />
 		  </div>
 		);
@@ -30,7 +29,7 @@ class CardContainer extends Component {
 			cards.push(<CardItem idNum={i}  />);
 		}
 		return (
-			<div className="card-flex">{cards}</div>
+			<div key={i} className="card-flex">{cards}</div>
 		);
 	}
 }
@@ -53,18 +52,20 @@ class CardContent extends Component {
         super(props);
     this.state = {
       imgSrc: [
-        "https://placeimg.com/640/480/architecture",
+        ProjectImg,
         "https://placeimg.com/640/480/tech",
         "https://dummyimage.com/100x100/8a4242/fff.png",
         "https://dummyimage.com/100x100/428a49/fff.png"
       ],
        headerText:[
        	"Software Developer",
-       	"Xlsx to Icalendar"
+       	"Xlsx to Icalendar",
+       	"Ical events to Google Calendar"
       ],
        description: [
-       	"This is a personal portfolio page project with the goal to learn React and create an online experience to showcase my projects.",
-       	"Creates standard Icalendar events from xlsx file with events."
+       	"This is a personal portfolio page project with the goal to learn Reactjs and progressive web applications and create an online experience to showcase my projects.",
+       	"Creates standard Icalendar events from xlsx file with events.",
+       	"Application automatically sends events of standard Icalendar file to Google calendar."
       ],
        url: ["https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout", "https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout"] 
       	

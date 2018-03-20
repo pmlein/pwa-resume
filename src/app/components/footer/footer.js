@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import FaFacebook from "react-icons/lib/fa/facebook";
 import FaGithub from "react-icons/lib/fa/github";
 import FaLinkedin from "react-icons/lib/fa/linkedin";
@@ -14,6 +14,10 @@ import FaCodepen from "react-icons/lib/fa/codepen";
           <FontAwesome name='faCoffee' />
         </li>
         </ul>
+                  <li className="nav-item">
+                <a href="https://facebook.com"><FaFacebook aria-hidden="true" size={28} 
+                    style={{marginLeft: 10, marginRight: 14}}/></a>
+              </li>
 */
 
 
@@ -24,25 +28,25 @@ const Footer = () => {
   return (
     <footer className={styles.footer} >
       <div className="container ">
-       <div class="d-flex justify-content-between bd-highlight mb-3 example-parent">
-         <div className="p-1">
+       <div className="d-flex justify-content-between bd-highlight mb-3 example-parent">
+         <div className="p-1.5">
             <ul className="nav d-inline-flex flex-row mb-3">
               <li className="nav-item">
-                <a href="https://facebook.com"><FaFacebook aria-hidden="true" size={28} style={{marginRight:10}}/></a>
+                <a href="https://github.com/pmlein">
+                <FaGithub aria-hidden="true" size={28} style={{marginLeft: 10, marginRight:14}}/></a>
               </li>
               <li className="nav-item">
-                <FaGithub aria-hidden="true" size={28} style={{marginRight:10}}/>
+                <a href="https://linkedin.com/in/paulaleinonen">
+                <FaLinkedin aria-hidden="true" size={28} style={{marginRight:14}}/></a>
               </li>
               <li className="nav-item">
-                <FaLinkedin aria-hidden="true" size={28} style={{marginRight:10}}/>
-              </li>
-              <li className="nav-item">
-                <FaCodepen aria-hidden="true" size={28}/>
+                <a href="https://codepen.io/pmlein">
+                <FaCodepen aria-hidden="true" size={28}/></a>
               </li>
              </ul>
            </div> 
-         <div className="p-2">Copyright </div>
-        <div className="p-2">
+         <div className="p-1.5">&copy; 2017 Paula Leinonen</div>
+        <div className="p-1.5">
         <span className="attribution">
           Powered by&nbsp;
           <a

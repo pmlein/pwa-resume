@@ -29,7 +29,7 @@ export default {
     "description": "Boilerplate for react, redux with server-side rendering for SEO and support for progressive web application"
   },
   seo: {
-    title: "Paula's Web Page",
+    title: "Software Developer, Paula",
     site_name: "Portfolio",
     description: "Portfolio Web Page",
     meta: [

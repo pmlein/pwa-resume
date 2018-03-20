@@ -1,41 +1,40 @@
-.site-footer {
-    padding:30px 0;
-    text-align: center;
-    .social {
-        margin: 5px;
-        margin-bottom: 0;
-        i {
-            font-size: 2rem;
-        }
-    }
-    a {
-        color: #000;
-        display: inline-block;
-    }
-    i {
-        display: block;
-        font-size: 3rem;
-    }
-    .columns {
-        margin-bottom: 2rem;
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-    .copy-right {
-        margin-bottom: 0;
-        margin-top: 1.5rem;
-    }
-    .info {
-        margin-top: 1.5rem;
-    }
-}
-
-
 
 $color-border: #CDCDCD;
 $color-label: darken($color-border, 20%);
 $color-primary: #1695A3;
+
+/*
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+*/
+body {
+  font-family: Lato, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+body, html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+
+.center_div{
+    margin: 0 auto;
+    width:20% /* value of your choice which suits your alignment */
+}
+
+
+
+
+
+
 
 .field {
   display: block;
@@ -81,24 +80,6 @@ input {
 
 
 
-/* *, *:before, *:after {
-  box-sizing: border-box;
-  position: relative;
-}
-
-body {
-  font-family: Lato, Helvetica, sans-serif;
-  padding: 1rem;
-}
-
-body, html {
-  font-size: 16px;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-*/
 
 .thank-you-note {
   padding: 60px;

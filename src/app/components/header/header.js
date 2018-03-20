@@ -32,30 +32,7 @@ const Header = (props) => {
             Portfolio
           </Link>
         </li>        
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/blog"})}
-            to="/blog"
-          >
-            Blog
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/contact"})}
-            to="/contact"
-          >
-            Contact
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/counter"})}
-            to="/counter"
-          >
-            Redux Counter
-          </Link>
-        </li>
+
       </ul>
     </div>
   );
