@@ -1,11 +1,14 @@
 
 # React PWA resume
-A highly scalable, Progressive Web Application, starter cloned from https://github.com/Atyantik/react-pwa.git
+This resume is 
+A highly scalable, Progressive Web Application.  
+
+Boilerplate by Atyantik Technologies Private Limited  React PWA [https://github.com/Atyantik/react-pwa.git]
 
 ###### Add to home screen and make your application behave like a Native APP
 
 #### Current Repo in Action
-To view how the current repository is running please visit [https://?]()
+To view how the current repository is running please visit [https://?](coming soon)
 
 
 

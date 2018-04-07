@@ -6,11 +6,10 @@ import Link from "pawjs/src/components/link";
 import { renderSubRoutes } from "pawjs/src/utils/renderer";
 import Transition from "pawjs/src/components/transition";
 
-
 //import * as styles from "./home.scss";
 import * as styles from "../about/about.scss";
 /*
-<img style={{ maxWidth: "150px"  }} className="img-fluid mx-auto d-block" src={Face} alt="ReactJS"/>
+<img style={{ maxWidth: "150px" , borderRadius: "50%" }} className="img-fluid mx-auto d-block" src={Face} alt="ReactJS"/>
 */
 const css = `
     .home-p {
@@ -29,11 +28,7 @@ export default class Home extends Component {
                 
               </div>
             </div>
-            
-            
-            
-            
-             <div className="pl-4 col-sm-6">
+            <div className="pl-4 col-sm-6">
                <h1 className="h1 text-center mt-3">Hey there,</h1>
                <p className="home-p"><style>{css}</style>
                 I am Paula, a Software Developer based in Kuopio, Finland. I love to learn and experiment new 
@@ -41,9 +36,7 @@ export default class Home extends Component {
                 doing things. My aim is to write elegant and efficient 
                 code.
                </p>
-            </div>
-           
-        
+            </div>           
       </div>
         );
     }

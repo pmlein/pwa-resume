@@ -1,8 +1,6 @@
 import React, {Component} from "react";
-import ProjectImg from "src/resources/images/resume.jpg";
-
-//import styles from './portfolio.scss';
-//require ('./portfolio.scss');
+import ProjectImg from "src/resources/images/Projects.jpg";
+import ConvertImg from "src/resources/images/convert.jpg";
 
 //BODY CONTENT
 export default class Portfolio extends Component {
@@ -52,13 +50,14 @@ class CardContent extends Component {
         super(props);
     this.state = {
       imgSrc: [
-        ProjectImg,
+				ProjectImg,
+				ConvertImg,
         "https://placeimg.com/640/480/tech",
         "https://dummyimage.com/100x100/8a4242/fff.png",
         "https://dummyimage.com/100x100/428a49/fff.png"
       ],
        headerText:[
-       	"Software Developer",
+       	"Software Developer Portfolio",
        	"Xlsx to Icalendar",
        	"Ical events to Google Calendar"
       ],
@@ -67,7 +66,14 @@ class CardContent extends Component {
        	"Creates standard Icalendar events from xlsx file with events.",
        	"Application automatically sends events of standard Icalendar file to Google calendar."
       ],
-       url: ["https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout", "https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout"] 
+			 url: ["https://github.com/pmlein/pwa-resume", 
+			 "https://github.com/pmlein/js-xlsx2ics",
+			 "https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout"],
+			 btnText: [
+				"View on Github",
+				"View on Github",
+				"Coming soon"
+		 ],
       	
       	
     };
@@ -81,36 +87,11 @@ class CardContent extends Component {
 				<div className="card-flex-content">
 					<h5>{this.state.headerText[this.props.idx]}</h5>
 					<p>{this.state.description[this.props.idx]}</p>
-					<a href={this.state.url[this.props.idx]} className="card-flex-button btn-block">More details</a>
+					<a href={this.state.url[this.props.idx]} className="card-flex-button btn-block">{this.state.btnText[this.props.idx]}</a>
 				</div>
 			</div>
 		);
 	}
 }
 
-//Change number of cards 1-10
-//ReactDOM.render(<CardContainer numCards={2} />, document.getElementById('card'));
-
-//Card content here
-	/* CardContent.propTypes = {
-imgSrc: PropTypes.string,
-headerText: PropTypes.string,
-description: PropTypes.string,
-url: PropTypes.string
-}
-
-
-
-ReactDOM.render(<CardContent 
-	imgSrc="https://picsum.photos/300/200?image=1075"
-	headerText="Xlsx to Icalendar"
-	description="Creates standard Icalendar events from xlsx file with events."
-	url="https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout" />, document.getElementById('card-2'));
-
-ReactDOM.render(<CardContent 
-	imgSrc="https://placeimg.com/640/480/tech"
-	headerText="Three"
-	description="I'm a card and I'm Third"
-	url="https://chriswrightdesign.com/experiments/using-flexbox-today/#card-layout" />, document.getElementById('card-3'));
-*/
 

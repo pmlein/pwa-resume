@@ -16,9 +16,7 @@
     "docker:prod:start": "docker run -it -p 3003:3003 react-pwa-prod"
   },
   "author": {
-    "name": "pmlein",
-    "email": "email@email.com",
-    "url": "https://www.example.com/"
+    "name": "pmlein"
   },
   "license": "MIT",
   "babel": {

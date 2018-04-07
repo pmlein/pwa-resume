@@ -65,8 +65,13 @@ export default (props) => {
           <div>
             <h2 className="h2">Other techniques and tools</h2>
             <ul>
+              <li>Git</li>
+              <li>Scrum</li>
+            </ul>
+            <h3>Currently Learning</h3>
+            <ul>
               <li>Elasticsearch</li>
-              <li>Progressive web applications</li>
+              <li>Progressive Web Applications</li>
             </ul>
           </div>
         </div>
